@@ -1,0 +1,27 @@
+# Output artifacts (regenerated each run)
+/output/
+!output/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# Node
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secrets / config
+.env
+.env.local

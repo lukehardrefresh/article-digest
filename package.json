@@ -1,0 +1,17 @@
+{
+  "name": "article-digest-llm-helper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LLM batch summarizer for the article-digest pipeline. Called from digest.py.",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "summarize": "node scripts/llm_batch.js"
+  },
+  "optionalDependencies": {
+    "z-ai-web-dev-sdk": "*"
+  },
+  "comment": "z-ai-web-dev-sdk is optionalDependencies because it is only required when LLM_PROVIDER=zai (the default). Users on the 'openai' backend do not need it. Node 18+ provides global fetch, required by the openai backend."
+}
