@@ -11,7 +11,7 @@
     "summarize": "node scripts/llm_batch.js"
   },
   "optionalDependencies": {
-    "z-ai-web-dev-sdk": "*"
+    "z-ai-web-dev-sdk": "^0.0.18"
   },
   "comment": "z-ai-web-dev-sdk is optionalDependencies because it is only required when LLM_PROVIDER=zai (the default). Users on the 'openai' backend do not need it. Node 18+ provides global fetch, required by the openai backend."
 }
